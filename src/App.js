@@ -8,7 +8,8 @@ function App() {
   const [books, setBooks] = useState([])
   
   useEffect(() => {
-    fetch(process.env.REACT_APP_API_URL)
+    // fetch(process.env.REACT_APP_API_URL)
+    fetch("https://book-api-java-production.up.railway.app")
     .then((response) => {
       if (!response.ok) {
         throw new Error(`Error en la API: ${response.statusText}`);

@@ -11,7 +11,8 @@ function BookDetail() {
     const {id}= useParams()
 
       useEffect(() => {
-        fetch(`${process.env.REACT_APP_API_URL}/${id}`)
+        // fetch(`${process.env.REACT_APP_API_URL}/${id}`)
+        fetch(`https://book-api-java-production.up.railway.app/${id}`)
         .then((response) => {
           if (!response.ok) {
             throw new Error(`Error en la API: ${response.statusText}`);
