@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/books-react-client/static/css/main.7403c378.css",
-    "main.js": "/books-react-client/static/js/main.6a6aa03d.js",
+    "main.js": "/books-react-client/static/js/main.04556dc5.js",
     "static/js/453.8d3383ab.chunk.js": "/books-react-client/static/js/453.8d3383ab.chunk.js",
     "index.html": "/books-react-client/index.html",
     "main.7403c378.css.map": "/books-react-client/static/css/main.7403c378.css.map",
-    "main.6a6aa03d.js.map": "/books-react-client/static/js/main.6a6aa03d.js.map",
+    "main.04556dc5.js.map": "/books-react-client/static/js/main.04556dc5.js.map",
     "453.8d3383ab.chunk.js.map": "/books-react-client/static/js/453.8d3383ab.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7403c378.css",
-    "static/js/main.6a6aa03d.js"
+    "static/js/main.04556dc5.js"
   ]
 }
