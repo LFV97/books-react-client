@@ -1,6 +1,29 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+body {
+  background-color: beige;
+}
+
 .App {
   text-align: center;
 }
+
+.truncate-title {
+  display: -webkit-box;
+  -webkit-line-clamp: 1;       /* Número de líneas que quieres mostrar */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.truncate-description {
+  display: -webkit-box;
+  -webkit-line-clamp: 6;       /* Número de líneas que quieres mostrar */
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
 
 .App-logo {
   height: 40vmin;
