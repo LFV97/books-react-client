@@ -40,31 +40,13 @@ function App() {
           </ListGroup>
           <Card.Body>
             <Card.Link href={book.link}>Buy Link</Card.Link>
-            <Card.Link as={Link} to={`/book/${book.id}`}>More info</Card.Link>
+            <Card.Img variant="top" src={`/books-react-client/images/portadas/${book.image}`} alt={book.title} width="150" />
           </Card.Body>
           </Card>
         </div>
       ))}
     </div>
-    
   );
-
-
-  // return (
-  //   <div className='container mx-auto w-90 p-4'>
-  //     <h1>Books</h1>
-  //     <div className='container row'>
-  //       {books.map(book => (
-  //         <div key={book.id} className='col-4'>
-  //           <h2>{book.title}</h2>
-  //           <p>{book.author}</p>
-  //           <img src={book.image} alt={book.title} width="150" />
-  //         </div>
-  //       ))}
-
-  //     </div>
-  //   </div>
-  // );
 }
 
 export default App;
