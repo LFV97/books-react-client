@@ -32,7 +32,12 @@ function BookDetail() {
         <div key={book.id} className='row d-flex justify-content-center'>
             <h2 className='d-flex justify-content-center p-4 fw-light fst-italic'>{book.title}</h2>
             <div className='col-lg-6 col-xl-3'>
-                <img src={`/books-react-client/images/portadas/${book.image}`} alt={book.title} width="300" />
+              <img
+                src={`${process.env.PUBLIC_URL}${book.image}`}
+                alt={book.title}
+                width="300"
+              />
+                {/* <img src={`/books-react-client/images/portadas/${book.image}`} alt={book.title} width="300" /> */}
                 <h3 className='fw-light'>{book.author}</h3>
             </div>
             <div className='col-lg-6 col-xl-6'>

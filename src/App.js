@@ -40,7 +40,7 @@ function App() {
           </ListGroup>
           <Card.Body>
             <Card.Link href={book.link}>Buy Link</Card.Link>
-            <Card.Img variant="top" src={`/books-react-client/images/portadas/${book.image}`} alt={book.title} width="150" />
+            <Card.Img variant="top" src={`${process.env.PUBLIC_URL}/images/portadas/${book.image}`} alt={book.title} width="150" />
           </Card.Body>
           </Card>
         </div>
